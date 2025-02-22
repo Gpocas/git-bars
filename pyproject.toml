@@ -1,0 +1,33 @@
+[project]
+name = "git-bars"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Gpocas",email = "gpocas01@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "briefcase (>=0.3.22,<0.4.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.briefcase]
+project_name = "gitbars"
+bundle = "com.bars.git"
+version = "0.1.0"
+license.file = "LICENSE"
+author = "Gpocas"
+author_email = "gpocas01@gmail.com"
+
+[tool.briefcase.app.git-bars]
+formal_name = "git-bars"
+description = "estatisticas de commits"
+long_description = "aplicação justpython para exibir estatisticas de commits de repositorios git"
+sources = ["git_bars"]
+
