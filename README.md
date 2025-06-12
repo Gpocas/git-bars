@@ -1,6 +1,11 @@
-<a href="https://zerodha.tech"><img src="https://zerodha.tech/static/images/github-badge.svg" align="right" /></a>
-
 # git-bars
+
+> [!NOTE]
+> Disclaimer 📢
+>
+> This is a fork of the original scalar docs implementation for django-ninja, if you are looking for the original version, check the link below
+
+[official repository](https://github.com/knadh/git-bars)
 
 `git-bars` is a utility that uses `git log` to render a simple git commit activity bars on the terminal. Commit activity can be grouped by day, month, year, between two dates, and can be filtered by author.
 
@@ -23,8 +28,21 @@ $> git-bars -p day
 2018-10-25 2    ▀▀▀▀▀▀▀▀
 ```
 
-## Install
-`pip install git-bars`
+## Install with pipx
+```bash
+pipx install git+https://github.com/Gpocas/git-bars.git
+```
 
 See `git-bars --help` for options.
 
+## Native Install with briefcase
+```bash
+poetry run briefcase build
+poetry run briefcase package
+```
+
+install native package (Ubuntu)
+
+```bash
+sudo apt install package.deb
+```
