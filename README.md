@@ -3,7 +3,8 @@
 > [!NOTE]
 > Disclaimer 📢
 >
-> This is a fork of the original scalar docs implementation for django-ninja, if you are looking for the original version, check the link below
+> This is a fork of the original git-bars, if you are looking for the original version, check the link below
+
 
 [official repository](https://github.com/knadh/git-bars)
 
